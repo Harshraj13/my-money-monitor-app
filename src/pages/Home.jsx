@@ -114,6 +114,12 @@ function Home() {
 
       <div className="filter d-flex justify-content-between align-items-center">
         <div className="d-flex">
+        <button
+            className="primary mx-2"
+            onClick={() => setShowAddEditTransactionModal(true)}
+          >
+            ADD NEW
+          </button>
           <div className="d-flex flex-column">
             <h6>Select Frequency</h6>
             <Select value={frequency} onChange={(value) => setFrequency(value)}>
@@ -162,12 +168,12 @@ function Home() {
               />
             </div>
           </div>
-          <button
+          {/* <button
             className="primary"
             onClick={() => setShowAddEditTransactionModal(true)}
           >
             ADD NEW
-          </button>
+          </button> */}
         </div>
       </div>
 
