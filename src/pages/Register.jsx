@@ -11,6 +11,7 @@ function Register() {
   const onFinish = async(values)=>{
     try {
       await axios.post('https://m3-backend-api.onrender.com/api/users/register',values)
+      // await axios.post('http://localhost:3080/api/users/register',values)
       navigate('/')
 
     } catch (error) {
