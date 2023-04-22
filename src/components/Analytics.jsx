@@ -38,10 +38,15 @@ function Analytics({ transactions }) {
         "salary",
         "freelance",
         "food",
+        "tax",
+        "rent",
+        "bills",
+        "cash-in",
+        "cash-out",
+        "shopping",
         "entertainment",
         "medical",
         "education",
-        "tax",
         "travel",
         "investment"
     ]

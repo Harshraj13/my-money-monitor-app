@@ -71,12 +71,19 @@ function AddEditTransaction({
             <Select.Option value="salary">Salary</Select.Option>
             <Select.Option value="freelance">Freelance</Select.Option>
             <Select.Option value="food">Food</Select.Option>
+            <Select.Option value="rent">Rent</Select.Option>
+            <Select.Option value="tax">Tax</Select.Option>
+            <Select.Option value="bills">Recharge/bills</Select.Option>
+            <Select.Option value="cash-out">Cash out</Select.Option>
+            <Select.Option value="cash in">Cash in</Select.Option>
+            <Select.Option value="shopping">Shopping</Select.Option>
             <Select.Option value="entertainment">Entertainment</Select.Option>
             <Select.Option value="investment">Investment</Select.Option>
             <Select.Option value="travel">Travel</Select.Option>
             <Select.Option value="education">Education</Select.Option>
             <Select.Option value="medical">Medical</Select.Option>
-            <Select.Option value="tax">Tax</Select.Option>
+            <Select.Option value="Other">Other</Select.Option>
+
           </Select>
         </Form.Item>
 
